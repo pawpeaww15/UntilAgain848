@@ -1,50 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Webpage</title>
+    <title>A Decade Later</title>
 
     <style>
         body {
+            text-align: center;
+            background-color: #f5e6d3;
             font-family: Arial, sans-serif;
-            margin: 40px;
+            margin-top: 100px;
         }
 
-        .image-section {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            margin-top: 20px;
+        h1 {
+            font-size: 60px;
+            color: #5b3a29;
+            font-family: Georgia, serif;
         }
 
-        .image-section img {
-            width: 250px;
-            height: auto;
-            border-radius: 10px;
+        p {
+            font-size: 24px;
+            color: #7a5c4d;
         }
     </style>
 </head>
+
 <body>
 
-    <!-- Header -->
-    <h1>Welcome to My Website</h1>
-
-    <!-- Paragraph -->
-    <p>
-        This is a simple example of an HTML webpage that contains
-        a header, a paragraph, and an image with text beside it.
-    </p>
-
-    <!-- Image with text beside it -->
-    <div class="image-section">
-        <img src="https://via.placeholder.com/250" alt="Sample Image">
-
-        <p>
-            This text appears beside the image. You can write
-            descriptions, introductions, or any information here.
-        </p>
-    </div>
+    <h1>A Decade Later</h1>
+    <p>Celebrating Grandma’s Special 80th</p>
 
 </body>
 </html>
