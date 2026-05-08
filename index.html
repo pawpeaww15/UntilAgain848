@@ -312,7 +312,51 @@
       box-shadow:0 2px 4px rgba(0,0,0,0.2);
     }
 
-    
+    /* ======================================
+   EXTRA BOTTOM PHOTOS
+====================================== */
+
+.bottom-left-photo,
+.bottom-right-photo{
+  width:170px;
+  position:absolute;
+  bottom:180px;
+  background:white;
+  padding:10px;
+  box-shadow:0 5px 10px rgba(0,0,0,0.18);
+}
+
+.bottom-left-photo img,
+.bottom-right-photo img{
+  width:100%;
+  display:block;
+}
+
+/* Tape */
+.bottom-left-photo::before,
+.bottom-right-photo::before{
+  content:"";
+  width:45px;
+  height:16px;
+  background:#c9a78b;
+  position:absolute;
+  top:-8px;
+  left:50%;
+  transform:translateX(-50%) rotate(-4deg);
+  opacity:0.85;
+}
+
+/* LEFT SIDE */
+.bottom-left-photo{
+  left:90px;
+  transform:rotate(-5deg);
+}
+
+/* RIGHT SIDE */
+.bottom-right-photo{
+  right:90px;
+  transform:rotate(5deg);
+}
     /* ======================================
        RESPONSIVE
     ====================================== */
@@ -459,7 +503,7 @@
         Benguet to gUbaEt, fiesta, 22 candles,<br> 
         budots, inszAn, orok x2,<br> 
         andok’s x2, 7/11, night walks,<br> 
-        barCe, bbq, ZiOns, nAzerano, mahiwaGang tumbLer<br>
+        barCe, bbq, ZiOns, nAzareno, mhiwGng tmbLer<br>
         lolA SAyoung, pili, bubong, canAel, tomZs world,<br>
         and all the little random moments in between.<br>
         Thank you suarrrr much for everything,<br> 
@@ -488,6 +532,16 @@
     <div class="bottom-center-photo">
       <img src="IMG_20260507_215705_945.jpg">
     </div>
+
+    <!-- BOTTOM LEFT PHOTO -->
+    <div class="bottom-left-photo">
+    <img src="510405902_10049322795147953_916251289684232247_n.jpg">
+</div>
+
+    <!-- BOTTOM RIGHT PHOTO -->
+    <div class="bottom-right-photo">
+    <img src="511156142_10049322835147949_8308359025821051290_n.jpg">
+</div>
 
   </div>
 
